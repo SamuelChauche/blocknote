@@ -20,7 +20,7 @@ Bloc Note is a simple and efficient note-taking web application built with React
 
 | Main Screen | 
 |-------------|
-| ![screenshot](https://github.com/SamuelChauche/blocknote/blob/56d259c86036115de040422ede23da26aebdef84/src/assets/screenshot.png) |
+| ![screenshot](src/assets/screenshot.png) |
 
 ---
 
