@@ -1,12 +1,84 @@
-# React + Vite
+# Bloc Note – Markdown Note-Taking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bloc Note is a simple and efficient note-taking web application built with React, supporting **Markdown** preview, live editing, and multi-note management. All your notes are stored locally in your browser—no account required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ✏️ **Write and edit notes** in [Markdown](https://www.markdownguide.org/basic-syntax/) format
+- 👀 **Live preview** of your rendered Markdown notes
+- 📑 **Create, select, and delete multiple notes**
+- 💾 **Autosave**: Notes are automatically saved in your browser (no servers, no accounts)
+- 🎨 **Modern, responsive layout**
+- 🔒 **Your data stays local** and private
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots
+
+
+| Main Screen | 
+|-------------|
+| ![Screenshot](assets/screenshot.png) |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (>= v16 recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/bloc-note.git
+cd bloc-note
+npm install
+```
+
+### Running Locally
+
+```bash
+npm start
+# The app will be running at http://localhost:5173
+```
+
+---
+
+## Usage
+
+- **Create a note:** Click `Add a note`.
+- **Edit Markdown:** Write notes using Markdown syntax. See real-time preview.
+- **Save:** Notes are auto-saved; just switch to another note or reload.
+- **Select another note:** Click on the sidebar note title.
+- **Delete:** Click the trash icon on any note in the sidebar.
+
+---
+
+## Tech Stack
+
+- [React](https://react.dev/)
+- [React Markdown](https://github.com/remarkjs/react-markdown)
+- [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- CSS Flexbox
+
+---
+
+## Contributing
+
+Pull requests are welcome! Feel free to open an issue or suggest a feature.
+
+---
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+*Made with ❤️ by Samuel*
+
+---
